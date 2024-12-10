@@ -19,8 +19,34 @@
     .presentation img {
         float: left;
         margin: 5px 5px;
-    }  
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .recipe-card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-video {
+        width: 70%;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+    }
 }
